@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    
+    <script src="https://kit.fontawesome.com/cd724feb53.js" crossorigin="anonymous"></script>    
 </head>
 <body>
     <header>
@@ -21,12 +21,27 @@
             </div>
             <div class="menu">
                 <ul>
-                    <li><a href="">About</a></li>
-                    <li><a href="">People</a></li>
+                    <li><a href="">About  <i class="fas fa-angle-down"></i>
+                        <ul  class="dropdown">
+                            <li><a href="">About ACC</a></li>
+                            <li><a href="">Rules & Regulation</a></li>
+                            <li><a href="">Intimidation Policy</a></li>
+                        </ul>
+                    </a>
+                        </li>
+                    <li><a class="inner-nav" href="">People  <i class="fas fa-angle-down"></i>
+                        <ul class="dropdown">
+                            <li><a href="">OSA</a></li>
+                            <li><a href="">Founders</a></li>
+                            <li><a href="">Executive Committe</a></li>
+                            <li><a href="">Former Committees</a></li>
+                            <li><a href="">Advisors</a></li>
+                        </ul>
+                        </a>
+                    </li>
                     <li><a href="">Community</a></li>
                     <li><a href="">Activities & News</a></li>
-                    <li><a href="">Events</a></li>
-                    <li><a href="">Media</a></li>
+                    <li><a href="">Events </a></li>
                     <li><a href="">Contact</a></li>
                     <i class="fas fa-search"></i>
                 </ul>
@@ -87,15 +102,63 @@
                     <div class="img-box">
                         <img src="images/rec.jpg" alt="">
                     </div>
-                    <h4 class="news-title">Selected Candidates for VIVA Summer 2020-21</h4>
-                    <p class="news-caption">Dear Candidates! The shortlist for AIUB Computer Club (ACC) Member</p>
-                    <a class="btn-style" href="">READ MORE</a>
+                    <div class="textbox">
+                        <h4 class="news-title">Selected Candidates for VIVA Summer 2020-21</h4>
+                        <p class="news-caption">Dear Candidates! The shortlist for AIUB Computer Club (ACC) Member</p>
+                        <a class="btn-style" href="">READ MORE</a>
+                    </div>
+                    
+                </div>
+                <div class="news-box">
+                    <div class="img-box">
+                        <img src="images/Jarvis-Result-2.0-with-logos-scaled.webp" alt="">
+                    </div>
+                    <div class="textbox">
+                        <h4 class="news-title">SResult of Jarvis 2.0 – Intra ACC Carnival</h4>
+                        <p class="news-caption">On 3rd October 2020, AIUB Computer Club (ACC) arranged ‘JARVIS</p>
+                        <a class="btn-style" href="">READ MORE</a>
+                    </div>
+                    
+                </div>
+                <div class="news-box">
+                    <div class="img-box">
+                        <img src="images/EXB-2021-Body-All.webp" alt="">
+                    </div>
+                    <div class="textbox">
+                        <h4 class="news-title">AIUB Computer Club (ACC) arranged a virtual conference for announcing the New Executive Committee of the club </h4>
+                        <p class="news-caption">On 7th May 2021, AIUB Computer Club organized a general meeting virtually</p>
+                        <a class="btn-style" href="">READ MORE</a>
+                    </div>
+                    
                 </div>
                 
             </div>
         </section>
+        <section class="container">
+            <div class="maps half-width">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3649.9007218549928!2d90.42521761434983!3d23.82212909195072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c711d13bbec7%3A0xc47f7c3e8e2263f2!2sAmerican%20International%20University-Bangladesh%20(AIUB)!5e0!3m2!1sen!2sbd!4v1625894908291!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <div class="in-touch half-width">
+                <h1>GET IN TOUCH</h1>
+                <h4>Location</h4>
+                <p>American International University-Bangladesh</p>
+                <p>Kuratoli, Dhaka-1229</p>
+                <h3>Contact</h3>
+                <h3>Email: aiubcomputerclub@gmail.com</h3>
+                <h3 class="message"><i aria-hidden="true" class="fas fa-envelope"></i>Send us a message</h3>
+            </div>
+        </section>
 
+        <footer class="footer-container">
+            <div id="footer-content" class="half-width">
+                <p class="color-white">Powered By AIUB Computer Club</p>
+                <p class="color-white">Hosted By Infolinkbd.com</p>
 
+            </div>
+            <div id="footer-content-2" class="half-width">
+                <p class="color-white">Developed by ACC Development Team</p>
+            </div>
+        </footer>
 
 
     </main>
